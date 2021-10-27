@@ -15,12 +15,18 @@
     <div class="bg-blue-300 h-screen">
         <h2 class="font-bold text-3xl pt-5 text-indigo-500 text-center">ToDo List</h2>
         <div class="mt-5 flex justify-center">
-            <input class=" rounded-2xl w-72 h-9 px-3 py-2 shadow-sm border-4 border-indigo-300 hover:border-indigo-600 outline-none" id="" type="text">
-            <svg class="h-9" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
-            </svg>
+            <input class="todo-input rounded-2xl w-72 h-9 px-3 py-2 shadow-sm border-4 border-indigo-300 hover:border-indigo-600 outline-none" id="" type="text">
+            <button class="todo-button bg-white rounded-xl hover:bg-gray-300">
+                <svg class="h-9" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
+                </svg>
+            </button>
         </div>
-
+        <div class="todo-container flex justify-center items-center">
+            <ul class="todo-list list-none"></ul>
+        </div>
     </div>
+
+    <script src="./app.js"></script>
 </body>
 </html>
