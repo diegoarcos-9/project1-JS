@@ -4,7 +4,12 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lora: "'Lora', serif",
+        dm: "'DM mono', monoscape",
+      }
+    },
   },
   variants: {
     extend: {},

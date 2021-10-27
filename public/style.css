@@ -6399,7 +6399,7 @@ video {
 }
 
 .max-h-0 {
-  max-height: 0px;
+  max-height: focus;
 }
 
 .max-h-1 {
@@ -22356,6 +22356,14 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-lora {
+  font-family: 'Lora', serif;
+}
+
+.font-dm {
+  font-family: 'DM mono', monoscape;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -37705,7 +37713,7 @@ video {
   }
 
   .sm\:max-h-0 {
-    max-height: 0px;
+    max-height: focus;
   }
 
   .sm\:max-h-1 {
@@ -53596,6 +53604,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-lora {
+    font-family: 'Lora', serif;
+  }
+
+  .sm\:font-dm {
+    font-family: 'DM mono', monoscape;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -68933,7 +68949,7 @@ video {
   }
 
   .md\:max-h-0 {
-    max-height: 0px;
+    max-height: focus;
   }
 
   .md\:max-h-1 {
@@ -84824,6 +84840,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-lora {
+    font-family: 'Lora', serif;
+  }
+
+  .md\:font-dm {
+    font-family: 'DM mono', monoscape;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -100161,7 +100185,7 @@ video {
   }
 
   .lg\:max-h-0 {
-    max-height: 0px;
+    max-height: focus;
   }
 
   .lg\:max-h-1 {
@@ -116052,6 +116076,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-lora {
+    font-family: 'Lora', serif;
+  }
+
+  .lg\:font-dm {
+    font-family: 'DM mono', monoscape;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -131389,7 +131421,7 @@ video {
   }
 
   .xl\:max-h-0 {
-    max-height: 0px;
+    max-height: focus;
   }
 
   .xl\:max-h-1 {
@@ -147280,6 +147312,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-lora {
+    font-family: 'Lora', serif;
+  }
+
+  .xl\:font-dm {
+    font-family: 'DM mono', monoscape;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -162617,7 +162657,7 @@ video {
   }
 
   .\32xl\:max-h-0 {
-    max-height: 0px;
+    max-height: focus;
   }
 
   .\32xl\:max-h-1 {
@@ -178508,6 +178548,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .\32xl\:font-lora {
+    font-family: 'Lora', serif;
+  }
+
+  .\32xl\:font-dm {
+    font-family: 'DM mono', monoscape;
+  }
+
   .\32xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -188019,3 +188067,4 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
