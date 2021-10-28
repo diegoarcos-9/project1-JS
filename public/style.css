@@ -31895,10 +31895,33 @@ video {
   width: 18rem;
   align-items: center;
   justify-content: space-between;
+  border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.todo li{
+  flex: 1 1 0%;
+}
+
+.trash-btn {
+  height: 2.25rem;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.complete-btn {
+  height: 2.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(110, 231, 183, var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.25rem
 }
 
 @media (min-width: 640px) {

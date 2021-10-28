@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 .todo{
-    @apply bg-white w-72 h-9 m-2 text-2xl flex justify-between items-center; 
+    @apply bg-white w-72 h-9 m-2 text-2xl rounded-xl flex justify-between items-center; 
+}
+
+.todo li{
+    @apply flex-1;
+}
+
+.trash-btn {
+    @apply bg-yellow-300 h-9 px-1 rounded-r-xl;
+}
+
+.complete-btn {
+    @apply bg-green-300 h-9 px-1
 }
