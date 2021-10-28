@@ -6399,7 +6399,7 @@ video {
 }
 
 .max-h-0 {
-  max-height: focus;
+  max-height: 0px;
 }
 
 .max-h-1 {
@@ -31888,6 +31888,19 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.todo{
+  margin: 0.5rem;
+  display: flex;
+  height: 2.25rem;
+  width: 18rem;
+  align-items: center;
+  justify-content: space-between;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -37713,7 +37726,7 @@ video {
   }
 
   .sm\:max-h-0 {
-    max-height: focus;
+    max-height: 0px;
   }
 
   .sm\:max-h-1 {
@@ -68949,7 +68962,7 @@ video {
   }
 
   .md\:max-h-0 {
-    max-height: focus;
+    max-height: 0px;
   }
 
   .md\:max-h-1 {
@@ -100185,7 +100198,7 @@ video {
   }
 
   .lg\:max-h-0 {
-    max-height: focus;
+    max-height: 0px;
   }
 
   .lg\:max-h-1 {
@@ -131421,7 +131434,7 @@ video {
   }
 
   .xl\:max-h-0 {
-    max-height: focus;
+    max-height: 0px;
   }
 
   .xl\:max-h-1 {
@@ -162657,7 +162670,7 @@ video {
   }
 
   .\32xl\:max-h-0 {
-    max-height: focus;
+    max-height: 0px;
   }
 
   .\32xl\:max-h-1 {
@@ -188067,4 +188080,3 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-

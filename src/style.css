@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.todo{
+    @apply bg-white w-72 h-9 m-2 text-2xl flex justify-between items-center; 
+}
