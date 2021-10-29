@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .todo{
-    @apply bg-white w-72 h-9 m-2 text-2xl rounded-xl flex justify-between items-center; 
+    @apply bg-white w-72 h-9 m-2 text-2xl duration-500 rounded-xl flex justify-between items-center; 
 }
 
 .todo li{
@@ -16,4 +16,16 @@
 
 .complete-btn {
     @apply bg-green-300 h-9 px-1
+}
+
+.todo-item{
+    @apply pl-2;
+}
+
+.completed{
+    @apply line-through opacity-50;
+}
+
+.fall{
+    @apply transform-gpu rotate-45 opacity-0;
 }

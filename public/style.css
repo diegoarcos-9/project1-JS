@@ -31900,6 +31900,7 @@ video {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   font-size: 1.5rem;
   line-height: 2rem;
+  transition-duration: 500ms;
 }
 
 .todo li{
@@ -31922,6 +31923,28 @@ video {
   background-color: rgba(110, 231, 183, var(--tw-bg-opacity));
   padding-left: 0.25rem;
   padding-right: 0.25rem
+}
+
+.todo-item{
+  padding-left: 0.5rem;
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.fall{
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-rotate: 45deg;
+  opacity: 0;
 }
 
 @media (min-width: 640px) {
