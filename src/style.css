@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .todo{
-    @apply bg-white w-72 h-9 m-2 text-2xl duration-500 rounded-xl flex justify-between items-center; 
+    @apply bg-white border-4 border-indigo-300 w-80 h-auto m-2 text-2xl duration-500 rounded-xl flex justify-between items-center; 
 }
 
 .todo li{
